@@ -1,0 +1,54 @@
+@import "reset";
+
+body{
+    
+    .container{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.5;
+        background-color: #999999;
+        color: #dfdfdf;
+        text-align: center;
+
+        width: 80%;
+        margin: 3rem auto;
+        padding: 1rem;
+        border-radius: 1rem;
+
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        gap: 1rem;
+
+        #testing-jailbreak{
+
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            gap: 1rem;
+
+            .inputs{
+
+                margin-top: 1rem;
+
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+                gap: 0.5rem;
+
+                input{
+
+                    padding: 0.3rem 0.6rem;
+                    border-radius: 0.3rem;
+                }
+            }
+
+            button[type=submit]{
+
+                background-color: #11ee11;
+                color: #000000;
+                padding: 0.3rem 0.6rem;
+                border-radius: 0.3rem;
+            }
+        }
+    }
+}
